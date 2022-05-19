@@ -15,5 +15,15 @@ namespace BasicCorePrograms
                 Console.WriteLine("| 2 power "+i+"  ||  "+Math.Pow(2,i)+"  |");
             }
         }
+
+        public void HarmonicValue(int n)
+        {
+            double sum = 0.0;
+            for (int i = 1; i <= n; i++)
+            {
+                sum += 1 / (float)i;
+            }
+            Console.WriteLine("Harmonic value of {0} is {1} ",n,sum);
+        }
     }
 }
