@@ -64,5 +64,17 @@ namespace BasicCorePrograms
             num2 = temp;
             Console.WriteLine("Swapped numbers are {0} {1}", num1, num2);
         }
+
+        public void CheckOddOrEven(int num)
+        {
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("{0} is Even", num);
+            }
+            else
+            {
+                Console.WriteLine("{0} is Odd", num);
+            }
+        }
     }
 }

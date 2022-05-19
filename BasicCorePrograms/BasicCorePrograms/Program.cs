@@ -23,3 +23,6 @@ Console.WriteLine();
 
 basicCore.SwapNumbers(3, 2);
 Console.WriteLine();
+
+basicCore.CheckOddOrEven(55);
+Console.WriteLine();
