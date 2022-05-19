@@ -26,3 +26,5 @@ Console.WriteLine();
 
 basicCore.CheckOddOrEven(55);
 Console.WriteLine();
+
+basicCore.CheckVowelsConsonants('T');

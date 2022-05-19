@@ -76,5 +76,18 @@ namespace BasicCorePrograms
                 Console.WriteLine("{0} is Odd", num);
             }
         }
+
+        public void CheckVowelsConsonants(char alphabet)
+        {
+            char[] vowels = new char[] { 'a', 'e', 'i', 'o', 'u' };
+            if(vowels.Contains(char.ToLower(alphabet)))
+            {
+                Console.WriteLine("Given alphabet {0} is a vowel",alphabet);
+            }
+            else
+            {
+                Console.WriteLine("Given alphabet {0} is a consonant", alphabet);
+            }
+        }
     }
 }
