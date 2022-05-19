@@ -89,5 +89,21 @@ namespace BasicCorePrograms
                 Console.WriteLine("Given alphabet {0} is a consonant", alphabet);
             }
         }
+
+        public void Largest(int num1, int num2, int num3)
+        {
+            if (num1 > num2 && num1 > num3)
+            {
+                Console.WriteLine("{0} is the largest", num1);
+            }
+            else if (num2 > num3 && num2 > num1)
+            {
+                Console.WriteLine("{0} is the largest", num2);
+            }
+            else
+            {
+                Console.WriteLine("{0} is the largest", num3);
+            }
+        }
     }
 }

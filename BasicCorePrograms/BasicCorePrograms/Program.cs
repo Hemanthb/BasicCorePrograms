@@ -28,3 +28,6 @@ basicCore.CheckOddOrEven(55);
 Console.WriteLine();
 
 basicCore.CheckVowelsConsonants('T');
+Console.WriteLine();
+
+basicCore.Largest(2, 3, 4);
