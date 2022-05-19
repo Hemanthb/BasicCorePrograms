@@ -13,3 +13,10 @@ Console.WriteLine();
 Console.WriteLine("Enter a number to get its prime factors");
 int no = Convert.ToInt32(Console.ReadLine());
 basicCore.PrimeFactors(no);
+Console.WriteLine();
+//calculates Quotient and Remainder
+Console.WriteLine("Enter the divisor and dividend");
+int divisor = Convert.ToInt32(Console.ReadLine());
+int dividend = Convert.ToInt32(Console.ReadLine());
+basicCore.ComputeQuotientRemainder(divisor,dividend);
+Console.WriteLine();

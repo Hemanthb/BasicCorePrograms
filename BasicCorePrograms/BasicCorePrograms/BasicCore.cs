@@ -48,5 +48,13 @@ namespace BasicCorePrograms
                 Console.Write(number + " ");
             }
         }
+
+        public void ComputeQuotientRemainder(int divisor,int dividend)
+        {
+            float quotient = dividend / divisor;
+            Console.WriteLine("Quotient is "+quotient);
+            Console.WriteLine("Remainder is " + dividend % divisor);
+
+        }
     }
 }
