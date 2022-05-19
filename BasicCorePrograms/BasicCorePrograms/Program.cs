@@ -20,3 +20,6 @@ int divisor = Convert.ToInt32(Console.ReadLine());
 int dividend = Convert.ToInt32(Console.ReadLine());
 basicCore.ComputeQuotientRemainder(divisor,dividend);
 Console.WriteLine();
+
+basicCore.SwapNumbers(3, 2);
+Console.WriteLine();
